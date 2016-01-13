@@ -4,7 +4,7 @@
   "description": "Wrapper for baidu push SDK API",
   "main": "./baidu-push.js",
   "keywords": [
-    "getui"
+    "baidu-push"
   ],
   "author": "roadshr.com",
   "engines": [
