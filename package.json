@@ -2,7 +2,7 @@
   "name": "baidu-push-wrapper ",
   "version": "0.0.4",
   "description": "Wrapper for baidu push SDK API",
-  "main": "./geTuiPush.js",
+  "main": "./baidu-push.js",
   "keywords": [
     "getui"
   ],
