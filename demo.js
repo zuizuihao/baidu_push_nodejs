@@ -1,5 +1,5 @@
 var Push   = require('./baidu-push');
-var userId = '931092786827930646';
+var channelId = '4099091116498016469';
 
 var pushOption = {
   apiKey: 'T0bqE6dFIlb6vgp39Oprqg6g',
@@ -10,14 +10,19 @@ var pushOption = {
 
 var client = new Push(pushOption);
 
-var option = {
-  push_type: 1,
-  user_id: userId,
-  messages: ["hello"],
-  msg_keys: ["title"]
+var options = {
+  channel_id: channelId,
+  msg_type: 1,
+  msg: {
+     title: 'Message from Push',
+     description: 'hello world'
+  }
 };
 
-client.pushMsg(option, function(error, result) {
+client.pushMsgToSingleDevice(options, function(error, result) {
+    if(error){
+        console.log(error);
+       return; 
+    }
     console.log(result);
-    console.log(error);
 });
