@@ -1,0 +1,16 @@
+{
+  "name": "baidu-push-wrapper ",
+  "version": "0.0.4",
+  "description": "Wrapper for baidu push SDK API",
+  "main": "./geTuiPush.js",
+  "keywords": [
+    "getui"
+  ],
+  "author": "roadshr.com",
+  "engines": [
+    "node >= 0.4.7"
+  ],
+  "dependencies": {
+    "crypto": "^0.0.3"
+  }
+}
