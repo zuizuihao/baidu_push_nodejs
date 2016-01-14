@@ -11,7 +11,6 @@ function Push(options) {
     this.secretKey = options.secretKey;
     this.host = options.host || 'api.tuisong.baidu.com';
     this.path = options.path || '/rest/3.0/';
-    this.timeout = options.timeout || 5000; // 5s
 
     if (options.hasOwnProperty('agent')) {
         this.agent = options.agent;

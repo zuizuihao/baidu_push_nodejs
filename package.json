@@ -1,6 +1,6 @@
 {
-  "name": "baidu-push-wrapper ",
-  "version": "0.0.4",
+  "name": "baidu-push-wrapper",
+  "version": "0.0.1",
   "description": "Wrapper for baidu push SDK API",
   "main": "./baidu-push.js",
   "keywords": [
@@ -10,7 +10,5 @@
   "engines": [
     "node >= 0.4.7"
   ],
-  "dependencies": {
-    "crypto": "^0.0.3"
-  }
+  "dependencies": {}
 }
